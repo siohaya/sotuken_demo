@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8" />
+	<title>連想応答システムデモ</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="container">
+	<h1>連想応答システムデモ</h1>
+	<p>
+                        <input type="button" id="reset" value="reset">
+	</p>  
+
+	<div id="talkField">
+		<div id="result"></div>
+		<br class="clear_balloon"/>
+		<div id="end"></div>
+	</div>
+	<div id="inputField">
+		<p>
+			Message: <input type="text" name="message" id="message">
+			<input type="button" id="greet" value="send">
+		</p>
+	</div>
+	</div>
+	<script src="./js/jquery-2.1.4.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
